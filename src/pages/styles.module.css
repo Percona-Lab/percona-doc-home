@@ -36,14 +36,16 @@
   margin: 10rem;
 }
 
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+.product {
+/*  display: flex;*/
+  align-items:center;
+/*  padding: 2rem 0; */
+width: 20rem;
 }
 
-.featureImage {
-  height: 200px;
-  width: 200px;
+.productImage {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+    padding: 2%;
 }

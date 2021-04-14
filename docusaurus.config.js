@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Percona Product Documentation',
   tagline: '',
-  url: 'https://docs.percona.com',
+  url: 'https://percona-docs.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'percona', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Percona Product Documentation',
+      title: 'Percona Product Documentation (Unofficial)',
       logo: {
         alt: 'Percona Logo',
         src: 'https://learn.percona.com/hs-fs/hubfs/Images/Logos/P%20-%20Percona.png'
@@ -23,11 +23,11 @@ module.exports = {
  //         label: 'Docs',
  //         position: 'left',
  //       },
-        {
-          href: 'https://github.com/percona',
-          label: 'GitHub',
-          position: 'right',
-        },
+//        {
+//          href: 'https://github.com/percona',
+//          label: 'GitHub',
+//          position: 'right',
+//        },
       ],
     },
     footer: {
@@ -60,20 +60,20 @@ module.exports = {
     },
   },
   presets: [
-    [
-      '@docusaurus/preset-bootstrap',
+  [
+    '@docusaurus/preset-bootstrap',
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/Percona-Lab/percona-doc-home/edit/main/src/pages/index.js'
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
+//        blog: {
+//          showReadingTime: true,
+//          // Please change this to your repo.
+//          editUrl:
+//            'https://github.com/facebook/docusaurus/edit/master/website/blog///',
+//        },
       },
     ],
   ],

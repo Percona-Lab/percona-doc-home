@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import styles from './styles.module.css';
 
-const features = [
+const products = [
   {
     title: 'Percona Monitoring and Management',
     linkUrl: 'https://pmm-doc.netlify.app/',
@@ -24,25 +24,32 @@ const features = [
     imageUrl: 'https://www.percona.com/sites/default/files/backup-mongo.jpg',
     description: (
       <>
-        A fully supported, open source, community backup tool for performing consistent hot backups in MongoDB..
+        A fully supported, open source, community backup tool for performing consistent hot backups in MongoDB.
+      </>
+    ),
+  },
+  {
+    title: 'Another Percona Product',
+    linkUrl: 'https://percona-backup-mongodb.netlify.app/',
+    imageUrl: 'https://www.percona.com/sites/default/files/backup-mongo.jpg',
+    description: (
+      <>
+        Description.
       </>
     ),
   }
 ];
 
-function Feature({linkUrl, imageUrl, title, description}) {
+function Product({linkUrl, imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-      <div className={classnames('col col--4', styles.feature)}>
-        <a href={linkUrl}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+      <div className={classnames('card', styles.product)}>
+      {imgUrl && (<img className={classnames('card-img-top', styles.productImage)} src={imgUrl} alt={title} />)}
+        <div class="card-body">
+            <h5 className="card-title">{title}</h5>
+            <p className="card-text">{description}</p>
+            <a href={linkUrl} class="btn btn-primary">Select</a>
         </div>
-      )}
-    </a>
-      <h4>{title}</h4>
-      <p>{description}</p>
     </div>
   );
 }
@@ -54,28 +61,13 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <div className={styles.hero}>
-{/*         <header>
-          <h1>{siteConfig.title}</h1>
-          <p>{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link to={useBaseUrl('docs/')}>Get Started</Link>
-          </div>
-        </header>
-*/}
-        <main>
-          {features && features.length > 0 && (
-            <section className={styles.section}>
-              <div className={styles.features}>
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </section>
+      description="Percona products technical documentation"
+      >
+          {products && products.length > 0 && (
+              <div class="d-flex flex-wrap">
+                {products.map((props, idx) => ( <Product key={idx} {...props} /> ))}
+                 </div>
           )}
-        </main>
-      </div>
     </Layout>
   );
 }
