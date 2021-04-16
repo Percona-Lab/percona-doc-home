@@ -31,13 +31,13 @@ const products = [
       ),
     },
     {
-        title: 'Another Percona Product',
-        linkUrl: '',
+        title: 'Percona Distribution for PostgreSQL 11',
+        linkUrl: 'https://postgresql-docs.netlify.app/',
         imageUrl: '',
         imageClass: [''],
       description: (
         <>
-          Description.
+          The best and most critical enterprise-level components from the open-source community, designed and tested to work together in one single source.
         </>
       ),
     },
