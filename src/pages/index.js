@@ -71,7 +71,7 @@ const products = [
 
     {
         title: 'Percona Server for MongoDB',
-        linkUrl: '',
+        linkUrl: 'https://psmdb-docs.netlify.app/',
         imageUrl: '',
         imageClass: [''],
       description: (
@@ -121,7 +121,7 @@ const products = [
         title: 'Percona Kubernetes Operators',
         linkUrl: '',
         imageUrl: '',
-        imageClass: ['logo-item-downloads-software', 'logo-server-home'],
+        imageClass: [],
       description: (
         <>
           Coming soon.
@@ -134,7 +134,7 @@ const products = [
         title: 'Percona Toolkit',
         linkUrl: '',
         imageUrl: '',
-        imageClass: ['logo-item-downloads-software', 'logo-server-home'],
+        imageClass: [],
       description: (
         <>
           Coming soon.
@@ -147,7 +147,7 @@ const products = [
         title: 'Percona Monitoring Plugins',
         linkUrl: '',
         imageUrl: '',
-        imageClass: ['logo-item-downloads-software', 'logo-server-home'],
+        imageClass: [],
       description: (
         <>
           Coming soon.
