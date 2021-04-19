@@ -8,6 +8,103 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const products = [
+
+    {
+        title: 'Percona Distribution for MySQL',
+        linkUrl: 'https://pdmysql-docs.netlify.app/',
+        imageUrl: '',
+        imageClass: [''],
+      description: (
+        <>
+          The most stable, scalable and secure open-source MySQL distribution, with two download options: one based on Percona Server for MySQL and one based on Percona XtraDB Cluster.
+        </>
+      ),
+    },
+
+    {
+        title: 'Percona Server for MySQL',
+        linkUrl: '',
+        imageUrl: '',
+        imageClass: [''],
+      description: (
+        <>
+          A drop-in replacement for MySQL, with advanced features and functionality.
+        </>
+      ),
+    },
+
+    {
+        title: 'Percona XtraDB Cluster',
+        linkUrl: '',
+        imageUrl: '',
+        imageClass: [''],
+      description: (
+        <>
+          A high-availability clustering solution based on Percona Server for MySQL.
+        </>
+      ),
+    },
+
+    {
+        title: 'Percona XtraBackup',
+        linkUrl: '',
+        imageUrl: '',
+        imageClass: [''],
+      description: (
+        <>
+          A hot backup solution for MySQL.
+        </>
+      ),
+    },
+
+    {
+        title: 'Percona Distribution for MongoDB',
+        linkUrl: 'https://distmongo-docs.netlify.app/',
+        imageUrl: '',
+        imageClass: [''],
+      description: (
+        <>
+          A single high-performance solution for enterprises looking to achieve optimum performance, without the expensive proprietary contract.
+        </>
+      ),
+    },
+
+    {
+        title: 'Percona Server for MongoDB',
+        linkUrl: '',
+        imageUrl: '',
+        imageClass: [''],
+      description: (
+        <>
+          A drop-in replacement for MongoDB with advanced features and functionality.
+        </>
+      ),
+    },
+
+    {
+        title: 'Percona Backup for MongoDB',
+        linkUrl: 'https://percona-backup-mongodb.netlify.app/',
+        imageUrl: 'https://www.percona.com/sites/default/files/backup-mongo.jpg',
+        imageClass: [''],
+      description: (
+        <>
+          A fully supported, open source, community backup tool for performing consistent hot backups in MongoDB.
+        </>
+      ),
+    },
+
+    {
+        title: 'Percona Distribution for PostgreSQL',
+        linkUrl: 'https://postgresql-docs.netlify.app/',
+        imageUrl: '',
+        imageClass: [''],
+      description: (
+        <>
+          The best and most critical enterprise-level components from the open-source community, designed and tested to work together in one single source.
+        </>
+      ),
+    },
+
     {
       title: 'Percona Monitoring and Management',
       linkUrl: 'https://pmm-doc.netlify.app/',
@@ -19,61 +116,47 @@ const products = [
       </>
       ),
     },
+
     {
-        title: 'Percona Backup for MongoDB',
-        linkUrl: 'https://percona-backup-mongodb.netlify.app/',
-        imageUrl: 'https://www.percona.com/sites/default/files/backup-mongo.jpg',
-        imageClass: [''],
-        description: (
-            <>
-      A fully supported, open source, community backup tool for performing consistent hot backups in MongoDB.
-      </>
-      ),
-    },
-    {
-        title: 'Percona Distribution for PostgreSQL 11',
-        linkUrl: 'https://postgresql-docs.netlify.app/',
-        imageUrl: '',
-        imageClass: [''],
-      description: (
-        <>
-          The best and most critical enterprise-level components from the open-source community, designed and tested to work together in one single source.
-        </>
-      ),
-    },
-    {
-        title: 'Another Percona Product',
-        linkUrl: '',
-        imageUrl: '',
-        imageClass: [''],
-      description: (
-        <>
-          Description.
-        </>
-      ),
-    },
-    {
-        title: 'Another Percona Product',
-        linkUrl: '',
-        imageUrl: '',
-        imageClass: [''],
-      description: (
-        <>
-          Description.
-        </>
-      ),
-    },
-    {
-        title: 'Another Percona Product',
+        title: 'Percona Kubernetes Operators',
         linkUrl: '',
         imageUrl: '',
         imageClass: ['logo-item-downloads-software', 'logo-server-home'],
       description: (
         <>
-          Description.
+          Coming soon.
         </>
       ),
     },
+
+
+    {
+        title: 'Percona Toolkit',
+        linkUrl: '',
+        imageUrl: '',
+        imageClass: ['logo-item-downloads-software', 'logo-server-home'],
+      description: (
+        <>
+          Coming soon.
+        </>
+      ),
+    },
+
+
+    {
+        title: 'Percona Monitoring Plugins',
+        linkUrl: '',
+        imageUrl: '',
+        imageClass: ['logo-item-downloads-software', 'logo-server-home'],
+      description: (
+        <>
+          Coming soon.
+        </>
+      ),
+    },
+
+
+
   ];
 
 
