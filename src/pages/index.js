@@ -169,7 +169,7 @@ function Product({linkUrl, imageUrl, imageClass, title, description}) {
                 <h5 className={classnames('card-title')}>{title}</h5>
                 <p className={classnames('card-text')}>{description}</p>
                 {linkUrl && (
-                    <a href={linkUrl} class="btn btn-light btn-sm active" role="button" aria-pressed="true">Visit</a>
+                    <a href={linkUrl} class="btn btn-light btn-sm active" role="button" aria-pressed="true" target='_blank'>Visit</a>
                 )
                 }
             </div>
