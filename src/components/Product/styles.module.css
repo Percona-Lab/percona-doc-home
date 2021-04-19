@@ -1,0 +1,83 @@
+.container {
+  width: 30%;
+  margin: 10px 0;
+  border: 1px solid silver;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: 'Chivo',sans-serif;
+  font-size: 14px;
+}
+
+.container > h5 {
+  font-size: 14px;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 14px;
+}
+
+.image {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 14px;
+}
+
+.title {
+  color: #1d2127;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 18px;
+  margin: 0 0 14px 0;
+  text-transform: uppercase;
+}
+
+.description {
+  color: #777;
+  line-height: 24px;
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.button {
+  background-color: #ed9c28;
+  border-color: #ed9c28;
+  color: white;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: all 0.1s;
+  width: fit-content;
+}
+
+.button:hover {
+  border-color: #efa740;
+  background-color: #efa740;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}

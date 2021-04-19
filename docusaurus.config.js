@@ -9,6 +9,9 @@ module.exports = {
   favicon: 'img/percona-favicon.ico',
   organizationName: 'percona', // Usually your GitHub org/user name.
   projectName: 'percona', // Usually your repo name.
+  stylesheets: [
+    'https://fonts.googleapis.com/css?family=Chivo'
+  ],
   themeConfig: {
     navbar: {
       title: 'Percona Product Documentation (Unofficial)',
