@@ -1,87 +1,46 @@
 /* stylelint-disable docusaurus/copyright-header */
 
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+ .container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-between;
+  padding: 32px;
+ }
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+.logoServer {
+  background: url(https://www.percona.com/sites/all/themes/Porto_sub/img/product-logos/sprite.png) -150px -150px no-repeat;
+  background-size: 600px;
 }
 
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
+.logoXtraDB {
+  background: url(https://www.percona.com/sites/all/themes/Porto_sub/img/product-logos/sprite.png) -150px 0 no-repeat;
+  background-size: 600px;
+}
+
+.logoTokuDB {
+  background: url(https://www.percona.com/sites/all/themes/Porto_sub/img/product-logos/sprite.png) 0 -150px no-repeat;
+  background-size: 600px;
+}
+
+.logoXtraBackup {
+  background: url(https://www.percona.com/sites/all/themes/Porto_sub/img/product-logos/sprite.png) -300px 0 no-repeat;
+  background-size: 600px;
+}
+
+.logoToolkit {
+  background: url(https://www.percona.com/sites/all/themes/Porto_sub/img/product-logos/sprite.png) -450px 0 no-repeat;
+  background-size: 600px;
+}
+
+.logoMonitoring {
+  background: url(https://www.percona.com/sites/all/themes/Porto_sub/img/product-logos/sprite.png) -300px -150px no-repeat;
+  background-size: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 16px;
   }
 }
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-  place-content: center;
-}
-
-.section {
-  margin: 10rem;
-}
-
-
-
-.logo-server-home {
-    background: url(https://www.percona.com/sites/all/themes/Porto_sub/img/product-logos/sprite.png) -150px -150px no-repeat;
-    background-size: 600px;
-}
-.logo-xtradb-home{
-background: url(https://www.percona.com/sites/all/themes/Porto_sub/img/product-logos/sprite.png) -150px 0 no-repeat;
-background-size: 600px;
-}
-.logo-tokudb-home {
-background: url(https://www.percona.com/sites/all/themes/Porto_sub/img/product-logos/sprite.png) 0 -150px no-repeat;
-background-size: 600px;
-}
-.logo-xtrabackup-home {
-background: url(https://www.percona.com/sites/all/themes/Porto_sub/img/product-logos/sprite.png) -300px 0 no-repeat;
-background-size: 600px;
-}
-.logo-toolkit-home {
-background: url(https://www.percona.com/sites/all/themes/Porto_sub/img/product-logos/sprite.png) -450px 0 no-repeat;
-background-size: 600px;
-}
-.logo-monitoring-home {
-background: url(https://www.percona.com/sites/all/themes/Porto_sub/img/product-logos/sprite.png) -300px -150px no-repeat;
-background-size: 600px;
-}
-
-.product {
-/*    padding: 1rem 0;*/
-    border: 1px solid silver;
-/*    border-radius: 10px; */
-    flex-flow: column nowrap;
-    min-height: 100%;
-    max-width: 50%;
-}
-
-.logo {
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    text-align: center;
-}
-
-       .button {
-        position: absolute;
-        text-align: center;
-        bottom: 5px;
-
-    }
