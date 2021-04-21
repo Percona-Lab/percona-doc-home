@@ -56,8 +56,38 @@ const products = [
     ),
   },
   {
-    title: 'Percona Server for MongoDB',
-    linkUrl: 'https://psmdb-docs.netlify.app/',
+    title: 'Percona Server for MongoDB 3.6',
+    linkUrl: 'https://psmdb-docs-36.netlify.app/',
+    logo: styles.logoTokuDB,
+    description: (
+      <>
+        A drop-in replacement for MongoDB with advanced features and functionality.
+      </>
+    ),
+  },
+  {
+    title: 'Percona Server for MongoDB 4.0',
+    linkUrl: 'https://psmdb-docs-40.netlify.app/',
+    logo: styles.logoTokuDB,
+    description: (
+      <>
+        A drop-in replacement for MongoDB with advanced features and functionality.
+      </>
+    ),
+  },
+  {
+    title: 'Percona Server for MongoDB 4.2',
+    linkUrl: 'https://psmdb-docs-42.netlify.app/',
+    logo: styles.logoTokuDB,
+    description: (
+      <>
+        A drop-in replacement for MongoDB with advanced features and functionality.
+      </>
+    ),
+  },
+  {
+    title: 'Percona Server for MongoDB 4.4',
+    linkUrl: 'https://psmdb-docs-44.netlify.app/',
     logo: styles.logoTokuDB,
     description: (
       <>
