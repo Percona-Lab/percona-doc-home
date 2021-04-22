@@ -118,7 +118,7 @@ const products = [
   },
   {
     title: 'Percona Monitoring and Management',
-    linkUrl: 'https://pmm-doc.netlify.app/',
+    linkUrl: '/pmm',
     imageUrl: 'https://www.percona.com/sites/default/files/pmm-iso-red.png',
     imageWidth: '150px',
     description: (
