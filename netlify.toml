@@ -4,9 +4,38 @@
   command = "npm run build"
 
 [[redirects]]
-  from = "/percona-monitoring-and-management"
-  to = "https://pmm-doc.netlify.app/"
-
-[[redirects]]
   from = "/percona-distribution-for-mysql"
   to = "https://pdmysql-docs.netlify.app/"
+
+[[redirects]]
+  from = "/percona-distribution-for-mongodb"
+  to = "https://distmongo-docs.netlify.app/"
+
+[[redirects]]
+  from = "/percona-server-for-mongodb-3-6"
+  to = "https://psmdb-docs-36.netlify.app/"
+
+[[redirects]]
+  from = "/percona-server-for-mongodb-4-0"
+  to = "https://psmdb-docs-40.netlify.app/"
+
+[[redirects]]
+  from = "/percona-server-for-mongodb-4-2"
+  to = "https://psmdb-docs-42.netlify.app/"
+
+[[redirects]]
+  from = "/percona-server-for-mongodb-4-4"
+  to = "https://psmdb-docs-44.netlify.app/"
+
+[[redirects]]
+  from = "/percona-backup-for-mongodb"
+  to = "https://percona-backup-mongodb.netlify.app/"
+
+[[redirects]]
+  from = "/percona-distribution-for-postgresql"
+  to = "https://postgresql-docs.netlify.app/"
+
+[[redirects]]
+  from = "/percona-monitoring-and-management"
+  to = "https://pmm-doc.netlify.app/"
+  status = 200

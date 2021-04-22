@@ -51,7 +51,7 @@ const products = [
   },
   {
     title: 'Percona Distribution for MongoDB',
-    linkUrl: 'https://distmongo-docs.netlify.app/',
+    linkUrl: '/percona-distribution-for-mongodb',
     logo: styles.logoTokuDB,
     description: (
       <>
@@ -61,7 +61,7 @@ const products = [
   },
   {
     title: 'Percona Server for MongoDB 3.6',
-    linkUrl: 'https://psmdb-docs-36.netlify.app/',
+    linkUrl: '/percona-server-for-mongodb-3-6',
     logo: styles.logoTokuDB,
     description: (
       <>
@@ -71,7 +71,7 @@ const products = [
   },
   {
     title: 'Percona Server for MongoDB 4.0',
-    linkUrl: 'https://psmdb-docs-40.netlify.app/',
+    linkUrl: '/percona-server-for-mongodb-4-0',
     logo: styles.logoTokuDB,
     description: (
       <>
@@ -81,7 +81,7 @@ const products = [
   },
   {
     title: 'Percona Server for MongoDB 4.2',
-    linkUrl: 'https://psmdb-docs-42.netlify.app/',
+    linkUrl: '/percona-server-for-mongodb-4-2',
     logo: styles.logoTokuDB,
     description: (
       <>
@@ -91,7 +91,7 @@ const products = [
   },
   {
     title: 'Percona Server for MongoDB 4.4',
-    linkUrl: 'https://psmdb-docs-44.netlify.app/',
+    linkUrl: '/percona-server-for-mongodb-4-4',
     logo: styles.logoTokuDB,
     description: (
       <>
@@ -101,7 +101,7 @@ const products = [
   },
   {
     title: 'Percona Backup for MongoDB',
-    linkUrl: 'https://percona-backup-mongodb.netlify.app/',
+    linkUrl: '/percona-backup-for-mongodb',
     imageUrl: 'https://www.percona.com/sites/default/files/backup-mongo.jpg',
     description: (
       <>
@@ -111,7 +111,7 @@ const products = [
   },
   {
     title: 'Percona Distribution for PostgreSQL',
-    linkUrl: 'https://postgresql-docs.netlify.app/',
+    linkUrl: '/percona-distribution-for-postgresql',
     imageUrl: 'https://www.percona.com/sites/default/files/postgre-logo.jpg',
     imageWidth: '210px',
     description: (
