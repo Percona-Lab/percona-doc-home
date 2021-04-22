@@ -9,9 +9,15 @@ const Product = ({linkUrl, logo, imageUrl, imageWidth, title, description}) => (
     </a>
     <h5 className={styles.title}>{title}</h5>
     <p className={styles.description}>{description}</p>
-    <div className={styles.buttonContainer}>
-      {linkUrl && <a href={linkUrl} className={styles.button}>Learn More</a>}
-    </div>
+
+    {linkUrl && linkUrl.map((link) => (
+        <div className={styles.buttonContainer}>
+            <a href={link.url} className={styles.button}>{link.label}</a>
+        </div>
+    )
+    ) }
+
+
   </div>
 );
 
