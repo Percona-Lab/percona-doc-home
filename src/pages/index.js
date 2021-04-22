@@ -7,7 +7,6 @@ import styles from './styles.module.css';
 /*
  * linkUrl is the subdir as listed in one of the [[redirects]] entries in netlify.toml
  */
-
 const products = [
     {
         title: 'Percona Distribution for MySQL',
@@ -28,7 +27,7 @@ const products = [
         title: 'Percona Server for MySQL',
         linkUrl: [
             {
-                url: '#',
+                url: '',
                 label: 'Coming soon',
             },
         ],
@@ -43,7 +42,7 @@ const products = [
         title: 'Percona XtraDB Cluster',
         linkUrl: [
             {
-                url: '#',
+                url: '',
                 label: 'Coming soon',
             },
         ],
@@ -58,7 +57,7 @@ const products = [
         title: 'Percona XtraBackup',
         linkUrl: [
             {
-                url: '#',
+                url: '',
                 label: 'Coming soon',
             }
         ],
@@ -170,7 +169,6 @@ const products = [
         imageWidth: '260px',
         description: (
             <>
-                Coming soon.
             </>
         ),
     },
@@ -185,7 +183,6 @@ const products = [
         logo: styles.logoToolkit,
         description: (
             <>
-                Coming soon.
             </>
         ),
     },
@@ -201,7 +198,6 @@ const products = [
         imageWidth: '150px',
         description: (
             <>
-                Coming soon.
             </>
         ),
     },
