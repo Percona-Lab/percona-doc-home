@@ -4,10 +4,14 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Product from '../components/Product';
 import styles from './styles.module.css';
 
+/*
+ * linkUrl is the subdir as listed in one of the [[redirects]] entries in netlify.toml
+ */
+
 const products = [
   {
     title: 'Percona Distribution for MySQL',
-    linkUrl: 'https://pdmysql-docs.netlify.app/',
+    linkUrl: '/percona-distribution-for-mysql',
     logo: styles.logoServer,
     description: (
       <>
@@ -118,7 +122,7 @@ const products = [
   },
   {
     title: 'Percona Monitoring and Management',
-    linkUrl: '/pmm',
+    linkUrl: '/percona-monitoring-and-management',
     imageUrl: 'https://www.percona.com/sites/default/files/pmm-iso-red.png',
     imageWidth: '150px',
     description: (

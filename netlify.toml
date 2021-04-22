@@ -4,5 +4,9 @@
   command = "npm run build"
 
 [[redirects]]
-  from = "/pmm"
+  from = "/percona-monitoring-and-management"
   to = "https://pmm-doc.netlify.app/"
+
+[[redirects]]
+  from = "/percona-distribution-for-mysql"
+  to = "https://pdmysql-docs.netlify.app/"
