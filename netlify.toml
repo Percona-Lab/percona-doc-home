@@ -38,4 +38,4 @@
 [[redirects]]
   from = "/percona-monitoring-and-management"
   to = "https://pmm-doc.netlify.app/"
-  status = 200
+  status = 302
