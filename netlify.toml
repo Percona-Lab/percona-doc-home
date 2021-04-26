@@ -1,10 +1,7 @@
 [build]
   base = "."
   publish = "build"
-  command = """
-  cd pmm-doc && mkdocs build -f mkdocs-netlify.yml && cd .. &&
-  npm run build
-  """
+  command = "npm run build"
 
 [[redirects]]
   from = "/percona-distribution-for-mysql"
@@ -41,4 +38,3 @@
 [[redirects]]
   from = "/percona-monitoring-and-management"
   to = "https://pmm-doc.netlify.app/"
-  status = 302
