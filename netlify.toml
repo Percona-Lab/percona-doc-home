@@ -2,7 +2,7 @@
   base = "."
   publish = "build"
   command = """
-  cd pmm-doc && PATH=$PATH:./_resources/bin mkdocs build -f mkdocs-netlify.yml && cd .. && npm run build
+  npm run build && cd pmm-doc && PATH=$PATH:./_resources/bin mkdocs build -f mkdocs-netlify.yml
   """
 
 [[redirects]]
