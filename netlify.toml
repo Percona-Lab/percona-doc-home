@@ -38,5 +38,5 @@
   to = "https://postgresql-docs.netlify.app/"
 
 [[redirects]]
-  from = "/percona-monitoring-and-management"
+  from = "/pmm"
   to = "https://pmm-doc.netlify.app/"
