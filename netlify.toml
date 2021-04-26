@@ -36,6 +36,6 @@
   to = "https://postgresql-docs.netlify.app/"
 
 [[redirects]]
-  from = "/percona-monitoring-and-management"
-  to = "https://pmm-doc.netlify.app/"
-  status = 302
+  from = "/percona-monitoring-and-management/*"
+  to = "https://pmm-doc.netlify.app/:splat"
+  status = 200
