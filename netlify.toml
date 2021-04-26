@@ -41,5 +41,5 @@
 
 [[redirects]]
   from = "/pmm/*"
-  to = "https://pmm-doc-test.netlify.app/:splat"
+  to = "https://pmm-doc-test.netlify.app/pmm/:splat"
   status = 200
