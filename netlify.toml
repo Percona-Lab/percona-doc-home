@@ -40,3 +40,4 @@
 [[redirects]]
   from = "/pmm"
   to = "https://pmm-doc.netlify.app/"
+  status = 200
