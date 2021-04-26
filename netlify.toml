@@ -1,7 +1,9 @@
 [build]
   base = "."
   publish = "build"
-  command = "npm run build"
+  command = """
+  cd pmm-doc && mkdocs build -f mkdocs-netlify.yml && cd .. && npm run build
+  """
 
 [[redirects]]
   from = "/percona-distribution-for-mysql"
