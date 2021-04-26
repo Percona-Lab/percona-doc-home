@@ -36,8 +36,3 @@
 [[redirects]]
   from = "/percona-distribution-for-postgresql"
   to = "https://postgresql-docs.netlify.app/"
-
-[[redirects]]
-  from = "/pmm"
-  to = "https://pmm-doc.netlify.app/"
-  status = 200
