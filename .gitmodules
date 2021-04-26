@@ -1,0 +1,3 @@
+[submodule "pmm-doc"]
+	path = pmm-doc
+	url = https://github.com/percona/pmm-doc
