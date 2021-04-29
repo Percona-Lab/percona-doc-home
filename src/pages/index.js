@@ -165,7 +165,7 @@ const products = [
         imageWidth: '150px',
         description: (
             <>
-                Platform for monitoring and managing MySQL and MongoDB performance.
+                Platform for monitoring and managing MySQL, PostgreSQL and MongoDB performance.
             </>
         ),
     },
