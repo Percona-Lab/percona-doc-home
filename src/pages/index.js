@@ -72,8 +72,12 @@ const products = [
         title: 'Percona Distribution for MongoDB',
         linkUrl: [
             {
-                url: '/percona-distribution-for-mongodb',
-                label: 'Learn more',
+                url: '/percona-distribution-for-mongodb-4-2',
+                label: 'v4.2',
+            },
+            {
+                url: '/percona-distribution-for-mongodb-4-4',
+                label: 'v4.4',
             },
         ],
         logo: styles.logoTokuDB,
@@ -129,8 +133,16 @@ const products = [
         title: 'Percona Distribution for PostgreSQL',
         linkUrl: [
             {
-                url: '/percona-distribution-for-postgresql',
-                label: 'Learn more',
+                url: '/percona-distribution-for-postgresql-1-1',
+                label: 'v11',
+            },
+            {
+                url: '/percona-distribution-for-postgresql-1-2',
+                label: 'v12',
+            },
+            {
+                url: '/percona-distribution-for-postgresql-1-3',
+                label: 'v13',
             },
         ],
         imageUrl: 'https://www.percona.com/sites/default/files/postgre-logo.jpg',

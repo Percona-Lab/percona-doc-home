@@ -8,8 +8,12 @@
   to = "https://pdmysql-docs.netlify.app/"
 
 [[redirects]]
-  from = "/percona-distribution-for-mongodb"
-  to = "https://distmongo-docs.netlify.app/"
+  from = "/percona-distribution-for-mongodb-4.2"
+  to = "https://distmongo-docs-42.netlify.app/"
+
+[[redirects]]
+  from = "/percona-distribution-for-mongodb-4-4"
+  to = "https://distmongo-docs-44.netlify.app/"
 
 [[redirects]]
   from = "/percona-server-for-mongodb-3-6"
@@ -32,8 +36,16 @@
   to = "https://percona-backup-mongodb.netlify.app/"
 
 [[redirects]]
-  from = "/percona-distribution-for-postgresql"
-  to = "https://postgresql-docs.netlify.app/"
+  from = "/percona-distribution-for-postgresql-1-1"
+  to = "https://postgresql-docs-11.netlify.app/"
+
+[[redirects]]
+  from = "/percona-distribution-for-postgresql-1-2"
+  to = "https://postgresql-docs-12.netlify.app/"
+
+[[redirects]]
+  from = "/percona-distribution-for-postgresql-1-3"
+  to = "https://postgresql-docs-13.netlify.app/"
 
 [[redirects]]
   from = "/percona-monitoring-and-management/*"
