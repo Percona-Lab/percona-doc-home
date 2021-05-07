@@ -1,0 +1,40 @@
+site_name: Percona Documentation (Unofficial)
+site_description: Percona Products Technical Documentation
+site_author: Percona LLC
+copyright: Percona LLC, &#169; 2021
+
+repo_name: percona/percona-doc-home
+repo_url: https://github.com/Percona-Lab/percona-doc-home
+edit_uri: edit/home/docs/
+
+
+theme:
+  name: material
+  logo: _images/percona-logo.svg
+  favicon: _images/percona-favicon.ico
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: percona-light
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+  - search
+  - mike:
+      version_selector: true
+
+extra:
+  version:
+    provider: mike
+
+nav:
+  - index.md
