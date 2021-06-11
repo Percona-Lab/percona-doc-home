@@ -36,16 +36,8 @@
   to = "https://percona-backup-mongodb.netlify.app/"
 
 [[redirects]]
-  from = "/percona-distribution-for-postgresql-1-1"
-  to = "https://postgresql-docs-11.netlify.app/"
-
-[[redirects]]
-  from = "/percona-distribution-for-postgresql-1-2"
-  to = "https://postgresql-docs-12.netlify.app/"
-
-[[redirects]]
-  from = "/percona-distribution-for-postgresql-1-3"
-  to = "https://postgresql-docs-13.netlify.app/"
+  from = "/percona-distribution-for-postgresql"
+  to = "https://postgresql-docs.netlify.app/"
 
 [[redirects]]
   from = "/percona-monitoring-and-management"
