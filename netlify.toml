@@ -32,6 +32,10 @@
   to = "https://psmdb-docs-44.netlify.app/"
 
 [[redirects]]
+  from = "/percona-server-for-mongodb-5-0"
+  to = "https://psmdb-docs-50.netlify.app/"
+
+[[redirects]]
   from = "/percona-backup-for-mongodb"
   to = "https://percona-backup-mongodb.netlify.app/"
 
