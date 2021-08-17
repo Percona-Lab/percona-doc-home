@@ -105,6 +105,10 @@ const products = [
             {
                 url: '/percona-server-for-mongodb-4-4',
                 label: 'v4.4',
+            },
+            {
+                url: '/percona-server-for-mongodb-5-0',
+                label: 'v5.0',
             }
         ],
         logo: styles.logoTokuDB,
